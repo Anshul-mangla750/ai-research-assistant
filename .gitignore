@@ -1,0 +1,55 @@
+# Environment & Secrets (Crucial: Never commit API keys!)
+.env
+.env.local
+.env.*.local
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Vector Store / Local Caches (generated from PDFs)
+faiss_index/
+.cache/
+
+# Hugging Face / Models local cache
+hub/
+models/
+
+# Streamlit Local Runtime
+.streamlit/secrets.toml
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
